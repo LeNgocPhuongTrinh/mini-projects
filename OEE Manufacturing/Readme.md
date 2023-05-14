@@ -41,25 +41,25 @@ Some abnormal things in raw data are listed as below
   + There are 10 machines and each of them is used for all products, implying that no multiple lines of the same machine type are running simultaneously.
 
 ### - Data Cleansing
-  + <b>Total < Good:</b>
+  + <b>Total < Good:</b><br>
     If Total < Good then Total Count is set to be equal to Good Count.
-  + <b>Accumulated Biscuits:</b>
+  + <b>Accumulated Biscuits:</b><br>
     Calculate the difference in Total Units Produced and Good Units Produced between consecutive rows by grouped Machine|Product. <br>
     The peculiarity is that Row N+1 has fewer Accumulated Biscuits than Row N, as indicated by the <b>Negative Difference</b>. The counter was reset to zero as a result of sensor problems. <br>
     Assume that if next value is lower than previous value, it is retained to add to the prior value. <br>
     However, nearly 90% data in case "Negative Difference" reveal that Row N+1 has value less than 10% value of Row N, showing that it is a minor difference that usually appear in Biscuits Filling Machine. The action on this 90% is set the "difference" to 0. <br>
     The consecutive difference is cleaned, recalculate the Accumulated Biscuits.
-  + <b>Start/End Stoppage Timing - Timing Continuous:</b>
+  + <b>Start/End Stoppage Timing - Timing Continuous:</b><br>
     Problem is that Stoppage Timing is continuous, therefore producing extra biscuits during this time is unreasonable.<br>
     Using Extra Biscuits as mentioned above, and using Design Speed to calculate the Run Time to produce these biscuits<br>
     The difference between that time and original Duration is the Run Time. This new Duration is used to determine the new Stoppage End Time.<br>
-  + <b>Start/End Stoppage Timing - Timing Across the Day:</b>
+  + <b>Start/End Stoppage Timing - Timing Across the Day:</b><br>
     Split line across the day to ensure each row has start time and end time on the same day<br>
     Some data lines depict the machine's stop duration over a two-day period, implying a planned shutdown.<br>
-  + <b>OEE Category - [NO ORDER, 0]:</b>
+  + <b>OEE Category - [NO ORDER, 0]:</b><br>
     If Duration >= 720 (12 hours), it is Schedule Loss. (Assume that if machine breaks down, it should be fixed within 12 hours)<br>
     If Duration < 720 (12 hours), it is Availability Loss<br>
-  + <b>Counter Unit for each Machine</b>:
+  + <b>Counter Unit for each Machine:</b><br>
     If Machine = Boxing or Packaging Heat, assume Counter Unit is Case, then number of biscuits = Current Count * Product Spec.<br>
  
  ### Output:
