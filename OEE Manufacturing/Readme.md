@@ -50,17 +50,17 @@ Some abnormal things in raw data are listed as below
     However, nearly 90% data in case "Negative Difference" reveal that Row N+1 has value less than 10% value of Row N, showing that it is a minor difference that usually appear in Biscuits Filling Machine. The action on this 90% is set the "difference" to 0. <br>
     The consecutive difference is cleaned, recalculate the Accumulated Biscuits.
   + <b>Start/End Stoppage Timing - Timing Continuous:</b>
-    Problem is that Stoppage Timing is continuous, therefore producing extra biscuits during this time is unreasonable.
-    Using Extra Biscuits as mentioned above, and using Design Speed to calculate the Run Time to produce these biscuits
-    The difference between that time and original Duration is the Run Time. This new Duration is used to determine the new Stoppage End Time.
+    Problem is that Stoppage Timing is continuous, therefore producing extra biscuits during this time is unreasonable.<br>
+    Using Extra Biscuits as mentioned above, and using Design Speed to calculate the Run Time to produce these biscuits<br>
+    The difference between that time and original Duration is the Run Time. This new Duration is used to determine the new Stoppage End Time.<br>
   + <b>Start/End Stoppage Timing - Timing Across the Day:</b>
-    Split line across the day to ensure each row has start time and end time on the same day
-    Some data lines depict the machine's stop duration over a two-day period, implying a planned shutdown.
+    Split line across the day to ensure each row has start time and end time on the same day<br>
+    Some data lines depict the machine's stop duration over a two-day period, implying a planned shutdown.<br>
   + <b>OEE Category - [NO ORDER, 0]:</b>
-    If Duration >= 720 (12 hours), it is Schedule Loss. (Assume that if machine breaks down, it should be fixed within 12 hours)
-    If Duration < 720 (12 hours), it is Availability Loss
+    If Duration >= 720 (12 hours), it is Schedule Loss. (Assume that if machine breaks down, it should be fixed within 12 hours)<br>
+    If Duration < 720 (12 hours), it is Availability Loss<br>
   + <b>Counter Unit for each Machine</b>:
-    If Machine = Boxing or Packaging Heat, assume Counter Unit is Case, then number of biscuits = Current Count * Product Spec.
+    If Machine = Boxing or Packaging Heat, assume Counter Unit is Case, then number of biscuits = Current Count * Product Spec.<br>
  
  ### Output:
  - OEE is very low due to the low performance rate. 9/10 machines have Performance rate of less than 20%, 8 have rate under 10% and 6 have rate under 1%.
