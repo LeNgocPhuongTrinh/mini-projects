@@ -1,11 +1,11 @@
-# PYTHON
+# MINI PROJECTS
 
 <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/Python-and-code.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5"/>
 
 ## Author
 Le Ngoc Phuong Trinh
 ### Description
-Join some virtual Data Challenges and Apply Python in Data Cleansing & Machine Learning
+Join some virtual Data Challenges and Apply Python in Data Cleansing & Machine Learning then Visualize Data
 
  ### Contact Information
  For more information, reach me at:
