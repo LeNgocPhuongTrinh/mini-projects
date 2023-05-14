@@ -1,6 +1,6 @@
 # MINI PROJECTS
 
-<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/Python-and-code.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5"/>
+<img src="https://octaveanalytics.com/wp-content/uploads/2020/02/Data-Analytics-in-Nigeria.png"/>
 
 ## Author
 Le Ngoc Phuong Trinh
