@@ -1,6 +1,6 @@
 # OEE MANUFACTURING
 
-<img src="https://altizon.com/wp-content/uploads/2018/01/how-real-time-accurate-calculation-of-oee-can-increase-your-factorys-throughput-by-at-least-20.jpg"/>
+<img src="https://media.licdn.com/dms/image/C4E12AQGyiQQHiiIaAw/article-cover_image-shrink_600_2000/0/1635916361437?e=2147483647&v=beta&t=GT5MWo0wrjSNf_UG55Dp9f1nq2tqNRc2O4eO3W7GBoE"/>
 
 ## Author
 Le Ngoc Phuong Trinh
