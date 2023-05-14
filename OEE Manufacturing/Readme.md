@@ -15,7 +15,7 @@ IT has now extracted and consolidated the data.
 Factory management has charged "participants" with assisting them in comprehending the facts.
 
 ## View my result at:
-- <a href="xx">Data Processing</a> <br>
+- <a href="https://github.com/LeNgocPhuongTrinh/mini-projects/tree/946248a1f1cede0ca95941b74f13852df956c8c0/OEE%20Manufacturing">Data Processing</a> <br>
 - <a href="https://www.novypro.com/project/oee-manufacturing-power-bi">Dashboard</a>
 
 ## Summary
